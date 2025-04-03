@@ -16,7 +16,7 @@ R, равное 256.
 '''
 from itertools import *
 d=[]
-for i in product('12679', repeat=4):
+for i in product('13679', repeat=4):
     s=''.join(i)
 
     s=s.replace('3', '4')
