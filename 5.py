@@ -25,4 +25,4 @@ for i in product('13679', repeat=4):
     for j in s:
         r*=int(j)
     if r==256:
-        print(i)
+        print(''.join(i))

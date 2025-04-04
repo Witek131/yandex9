@@ -1,4 +1,5 @@
 from turtle import *
+print(14)
 tracer(0)
 screensize(2000, 2000)
 k=10
