@@ -6,6 +6,7 @@ for i in f:
 print(data)
 tracer(0)
 screensize(2000, 2000)
+
 up()
 for x, y in data:
     goto(x*3,y*3)
